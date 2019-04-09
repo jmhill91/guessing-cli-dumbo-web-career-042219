@@ -10,7 +10,7 @@ def run_guessing_game
       puts "Goodbye!"
       break
     elsif guess.to_i == answer
-      puts "You guessed the correct number"
+      puts "You guessed the correct number!"
       guess= gets.chomp
     else
       puts "The computer guessed #{answer}."
